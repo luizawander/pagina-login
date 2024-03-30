@@ -1,4 +1,5 @@
-import logoIMG from './assets/logo.jpeg'
+import logoIMG from './assets/logozap.png'
+import './styles.css'
 
 function App() {
   return (
@@ -7,19 +8,19 @@ function App() {
         <div className="wrap-login">
           <form className="login-form">
 
-              <span className="login-form-tittle"> Bem Vindo!</span>
+          <span className="login-form-tittle"> Bem Vindo!</span>
 
-              <span className="login-form-title">
+          <span className="login-form-tittle">
                 <img src={logoIMG} alt="Logo com Raio" />
-              </span>
+          </span>
 
               <div className='wrap-input'>
-                  <input type='email' />
+                  <input className='input' type='email' />
                   <span className='focus-input' data-placeholder="Email"> </span>
               </div>
 
               <div className='wrap-input'>
-                  <input type='Password' />
+                  <input className='input' type='Password' />
                   <span className='focus-input' data-placeholder="Password"> </span>  
               </div>
 
