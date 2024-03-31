@@ -2,7 +2,6 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-
     
 }
 
@@ -142,13 +141,19 @@
     width: 100%;
 }
 
+.has-val+.focus-input::after {
+    top: -15px;
+}
+  
+.has-val+.focus-input::before {
+    width: 100%;
+}
+
 .container-login-form-btn{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 13px;
-    
-
 }
 
 .login-form-btn{
